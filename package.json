@@ -1,0 +1,20 @@
+{
+  "name": "husband-soundboard",
+  "description": "Giving my partner the soundbites she needs when she needs them.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohheyjosh/husband-soundboard.git"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "license": "MIT"
+}
