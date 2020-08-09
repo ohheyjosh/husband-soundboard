@@ -1,7 +1,5 @@
-import dynamic from "next/dynamic";
 import React, { Component } from "react";
-
-const Sound = dynamic(() => import("../components/Sound"));
+import Sound from "../components/Sound";
 
 export default class extends Component {
   render() {
