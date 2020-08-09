@@ -1,8 +1,19 @@
 import React, { Component } from "react";
+import dynamic from "next/dynamic";
 import Sound from "../components/Sound";
+
+const unmuteAudio = dynamic(
+  () => {
+    return import("unmute-ios-audio");
+  },
+  { ssr: false }
+);
 
 export default class extends Component {
   render() {
+    // Call once to circumvent iOS's muting behavior
+    unmuteAudio();
+
     return (
       <main className="m-3 sm:m-4 md:m-5 lg:m-6">
         <h1 className="text-gray-700 text-lg font-medium mb-4 sm:mb-6">

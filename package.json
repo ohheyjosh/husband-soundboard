@@ -22,6 +22,7 @@
     "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
     "tailwindcss": "^1.6.2",
+    "unmute-ios-audio": "^3.0.0",
     "use-sound": "^1.0.2"
   }
 }
