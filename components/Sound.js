@@ -1,10 +1,12 @@
 import React from "react";
+import { Howl, Howler } from "howler";
 
 export default function Sound({ emoji, src }) {
   const play = src => {
-    const audio = new Audio(`/${src}.mp3`);
-    audio.play();
+    const sound = new Howl({ src: [`/${src}.mp3`] });
+    sound.play();
   };
+
   return (
     <li className="col-span-1 flex rounded-md shadow-md hover:shadow-lg transform hover:-translate-y-1 ease-in-out duration-300">
       <button
