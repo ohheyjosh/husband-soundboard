@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import dynamic from "next/dynamic";
-import Sound from "../components/Sound";
+import SoundButton from "../components/SoundButton";
 
 const Unmute = dynamic(
   () => {
@@ -20,15 +20,15 @@ export default class extends Component {
             Husband Soundboard
           </h1>
           <ul className="grid grid-cols-3 gap-6 lg:grid-cols-5 items-center justify-center h-full">
-            <Sound emoji="❤️" src="/love.mp3" />
-            <Sound emoji="👗" src="/look.mp3" />
-            <Sound emoji="👶" src="/baby.mp3" />
-            <Sound emoji="🍽" src="/dishes.mp3" />
-            <Sound emoji="🧐" src="/right.mp3" />
-            <Sound emoji="🌱" src="/plant.mp3" />
-            <Sound emoji="🍱" src="/babysitter.mp3" />
-            <Sound emoji="🧺" src="/laundry.mp3" />
-            <Sound emoji="😔" src="/sorry.mp3" />
+            <SoundButton emoji="❤️" src="/love.mp3" />
+            <SoundButton emoji="👗" src="/look.mp3" />
+            <SoundButton emoji="👶" src="/baby.mp3" />
+            <SoundButton emoji="🍽" src="/dishes.mp3" />
+            <SoundButton emoji="🧐" src="/right.mp3" />
+            <SoundButton emoji="🌱" src="/plant.mp3" />
+            <SoundButton emoji="🍱" src="/babysitter.mp3" />
+            <SoundButton emoji="🧺" src="/laundry.mp3" />
+            <SoundButton emoji="😔" src="/sorry.mp3" />
           </ul>
           <aside className="text-gray-500 text-base font-medium text-right mt-4 sm:mt-6">
             made with ♥ by{" "}

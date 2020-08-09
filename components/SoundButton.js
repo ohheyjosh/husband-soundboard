@@ -1,7 +1,7 @@
 import React from "react";
 import useSound from "use-sound";
 
-export default function Sound({ emoji, src }) {
+export default function SoundButton({ emoji, src }) {
   const [play] = useSound(src);
 
   return (
