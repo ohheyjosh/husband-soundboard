@@ -9,15 +9,15 @@ export default class extends Component {
           Husband Soundboard
         </h1>
         <ul className="grid grid-cols-3 gap-6 lg:grid-cols-5 items-center justify-center h-full">
-          <Sound emoji="❤️" src="love" />
-          <Sound emoji="👗" src="look" />
-          <Sound emoji="👶" src="baby" />
-          <Sound emoji="🍽" src="dishes" />
-          <Sound emoji="🧐" src="right" />
-          <Sound emoji="🌱" src="plant" />
-          <Sound emoji="🍱" src="babysitter" />
-          <Sound emoji="🧺" src="laundry" />
-          <Sound emoji="😔" src="sorry" />
+          <Sound emoji="❤️" src="/love.mp3" />
+          <Sound emoji="👗" src="/look.mp3" />
+          <Sound emoji="👶" src="/baby.mp3" />
+          <Sound emoji="🍽" src="/dishes.mp3" />
+          <Sound emoji="🧐" src="/right.mp3" />
+          <Sound emoji="🌱" src="/plant.mp3" />
+          <Sound emoji="🍱" src="/babysitter.mp3" />
+          <Sound emoji="🧺" src="/laundry.mp3" />
+          <Sound emoji="😔" src="/sorry.mp3" />
         </ul>
       </main>
     );
